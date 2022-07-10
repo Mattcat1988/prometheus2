@@ -45,17 +45,7 @@ services:
     depends_on:
       - prometheus
 
-#  alertmanager:
-#    image: bitnami/alertmanager
-#    container_name: alertmanager
-#    hostname: alertmanager
-#    restart: always
-#    volumes:
-#      - ./alertmanager.yml:/etc/alertmanager/alertmanager.yml
-#    ports:
-#      - "9093:9093"
-#    networks:
-#      - monitor
+
 volumes:
   grafana-data:
   grafana-config:
