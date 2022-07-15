@@ -41,3 +41,7 @@ scrape_configs:
 
     static_configs:
       - targets: ["192.168.0.104:9100"]
+  - job_name: 'macos work'
+
+    static_configs:
+      - targets: ["192.168.195.164:9100"]
